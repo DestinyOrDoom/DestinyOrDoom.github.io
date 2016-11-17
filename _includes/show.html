@@ -8,4 +8,6 @@
     <li><a href="{{ link.url }}">{{ link.name }}</a></li>
     {% endfor %}
 </ul>
+{% if include.players == "yes" %}
 {% include players.html show=show %}
+{% endif %}
