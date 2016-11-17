@@ -15,6 +15,10 @@ a:link, a:visited, a:hover, a:active {
   color: $link;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 .content {
   min-height: 100%;
   flex: 1;
