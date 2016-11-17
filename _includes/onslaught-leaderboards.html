@@ -2,7 +2,7 @@
 <table class="leaderboards">
     <thead>
     <tr>
-        <th>#</th>
+        <th class="number">#</th>
         <th>Player</th>
         <th>Character</th>
         <th class="number">Gold</th>
@@ -12,7 +12,7 @@
     <tbody>
     {% for row in site.data.onslaught.leaderboards %}
     <tr>
-        <td>{{ forloop.index }}</td>
+        <td class="number">{{ forloop.index }}</td>
         <td>{{ row.player }}</td>
         <td>{{ row.character }}</td>
         <td class="number">{{ row.gold }}</td>
