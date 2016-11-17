@@ -1,10 +1,11 @@
 markdown: kramdown
 highlighter: rouge
 
-google_analytics_id: UA-XXXXXXXXX-X
+google_analytics_id: UA-87579391-1
 
 name: Destiny or Doom - a livestreamed tabletop RPG show
-description: yadi yadi yada
+description: >
+  Destiny or Doom is a weekly livestreamed show featuring Tabletop RPGs and board games. Hosted by The Pixel Pirate, we aim to bring excitement and wonder to each production we put out.
 
 sass:
   sass_dir: _sass
