@@ -5,6 +5,17 @@ layout: default
 <div class="row">
     <div class="column column-75 mainbox">
         <h2>Shop</h2>
+        <div id="myshop"></div>
+
+        <script>
+            var spread_shop_config= {
+                "shopName" : "501825",
+                "locale" : "us_US",
+                "prefix" : "//shop.spreadshirt.com",
+                "baseId" : "myshop"
+         };
+        </script>
+        <script type="text/javascript" src="//shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js"></script>
     </div>
     <div class="column column-25 sidebar">
         {% include agenda.html %}
