@@ -1,0 +1,23 @@
+<h3>Leaderboards</h3>
+<table class="leaderboards">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Player</th>
+        <th>Character</th>
+        <th>Gold</th>
+        <th>Level</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for row in site.data.onslaught.leaderboards %}
+    <tr>
+        <td>{{ forloop.index }}</td>
+        <td>{{ row.player }}</td>
+        <td>{{ row.character }}</td>
+        <td>{{ row.gold }}</td>
+        <td>{{ row.level }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

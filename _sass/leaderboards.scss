@@ -1,0 +1,25 @@
+table.leaderboards {
+  tbody {
+    tr:nth-child(odd) {
+      background-color: darken($darkarea, 5%);
+    }
+
+    tr:nth-child(1) {
+      td:first-child {
+        background-color: #4b4b00;
+      }
+    }
+
+    tr:nth-child(2) {
+      td:first-child {
+        background-color: #4d4d4d;
+      }
+    }
+
+    tr:nth-child(3) {
+      td:first-child {
+        background-color: #422110;
+      }
+    }
+  }
+}
