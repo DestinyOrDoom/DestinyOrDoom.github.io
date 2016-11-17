@@ -1,6 +1,6 @@
 nav {
   font-family: "optimus princeps", "Verdana", sans-serif;
-  background-color: $darkarea;
+  background-color: $header;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -11,17 +11,24 @@ nav {
   border-bottom: $border;
 
   h1 {
-    font-size: 1.6em;
+    opacity: 0;
   }
 
   a:link, a:visited, a:hover, a:active {
     color: $menutext;
   }
 
+  a.logo {
+    background-image: url("assets/destinyordoom.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
   > .item {
+    font-size: 3rem;
     color: $menutext;
     width: 200px;
-    height: 100px;
+    height: 175px;
     display: flex;
     align-items: center;
     justify-content: center;
