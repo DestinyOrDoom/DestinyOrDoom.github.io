@@ -1,0 +1,14 @@
+markdown: kramdown
+highlighter: rouge
+
+google_analytics_id: UA-XXXXXXXXX-X
+
+name: Destiny or Doom - a livestreamed tabletop RPG show
+description: yadi yadi yada
+
+sass:
+  sass_dir: _sass
+
+exclude:
+  - README.md
+  - .gitignore

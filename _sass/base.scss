@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: $middle;
+  color: $text;
+  font-family: 'Lato', 'Verdana', sans-serif;
+  line-height: 2.2rem;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: $link;
+}
+
+.content {
+  min-height: 100%;
+  flex: 1;
+  margin: 0 auto;
+  margin-bottom: -$footerheight;
+}
+
+.content:after {
+  content: "";
+  display: block;
+  height: $footerheight;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "optimus princeps semi bold";
+}
+

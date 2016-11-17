@@ -1,0 +1,14 @@
+$margin: 60px 0;
+$padding: 32px;
+
+.container .row .column.mainbox {
+  border: $border;
+  background-color: $darkarea;
+  margin: $margin;
+  padding: $padding;
+}
+
+.container .row .column.sidebar {
+  margin: $margin;
+}
+

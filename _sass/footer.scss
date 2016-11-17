@@ -1,0 +1,9 @@
+footer {
+  height: $footerheight;
+  border-top: $border;
+  background-color: $darkarea;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

@@ -1,0 +1,47 @@
+name: The Horde - Heroes
+image: test-1.jpg
+description: >
+  Do you see any Teletubbies in here?
+  Do you see a slender plastic tag clipped to my shirt with my name printed on
+  it? Do you see a little Asian child with a blank expression on his face
+  sitting outside on a mechanical helicopter that shakes when you put quarters
+  in it? No? Well, that's what you see at a toy store.
+  And you must think you're in a toy store, because you're here shopping for
+  an infant named Jeb.
+
+links:
+  - name: World Map
+    url: http://i.imgur.com/DHvsswM.jpg
+  - name: Territory Map
+    url: http://i.imgur.com/iOH9rcL.jpg
+  - name: Cheat sheets and characters
+    url: https://docs.google.com/spreadsheets/d/1QvTV0JDflSW3remdtIRJ32uv-cWNvkmllkzRmxPhTu8/edit?usp=sharing
+  - name: Magic system
+    url: https://docs.google.com/document/d/18PSVfKCw1CACIxIvIM45bF7Res8kUzBvXKS1SYLGLxY/edit?usp=sharing
+  - name: Deities
+    url: https://docs.google.com/document/d/1MNzzKzHuUHo5uwpY3ayrhaPfvrb-fdnPUCs8U8_Wpbw/edit?usp=sharing
+
+players:
+  - name: Lietu
+    portrait: thallan.jpg
+    character: Thallan Jolee
+    links:
+      - name: Character Sheet
+        url: https://docs.google.com/spreadsheets/d/1QvTV0JDflSW3remdtIRJ32uv-cWNvkmllkzRmxPhTu8/edit#gid=588123559
+    description: >
+      Yaddi yaddi yadda.Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda.
+
+  - name: DyingCamel
+    character: Camle
+    description: >
+      A demented dwarf
+
+  - name: Arborism
+    character: Bernard Boyce
+    description: >
+      A huntard
+
+  - name: zoldaPLS
+    character: Yorek asdlkja
+    description: >
+      A dude

@@ -1,0 +1,11 @@
+{% capture show %}show--{{include.name}}{% endcapture%}
+
+<img src="http://placehold.it/500x300">
+<h2>{{ site.data[show].name }}</h2>
+<p>{{ site.data[show].description }}</p>
+<ul class="links">
+    {% for link in site.data[show].links %}
+    <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+    {% endfor %}
+</ul>
+{% include players.html show=show %}

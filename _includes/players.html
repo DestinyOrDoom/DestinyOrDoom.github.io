@@ -1,0 +1,17 @@
+{% for player in site.data[include.show].players %}
+<div class="row players">
+    <div class="column column-25">
+        <img src="http://placehold.it/150x150">
+    </div>
+    <div class="column column-75 description">
+        <h3>{{ player.name }}</h3>
+        <h4>{{ player.character }}</h4>
+        <p>{{ player.description }}</p>
+        <ul class="links">
+            {% for link in player.links %}
+            <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endfor %}

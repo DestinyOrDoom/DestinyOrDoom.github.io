@@ -1,0 +1,9 @@
+ul.links {
+  list-style: none;
+}
+
+a.plain {
+  &:link, &:visited, &:hover, &:active {
+    color: $text;
+  }
+}
