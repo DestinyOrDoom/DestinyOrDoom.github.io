@@ -1,7 +1,16 @@
+$hover: lighten($darkarea, 5%);
 table.leaderboards {
   tbody {
     tr:nth-child(odd) {
       background-color: darken($darkarea, 5%);
+    }
+
+    tr:nth-child(even):hover {
+      background-color: $hover;
+    }
+
+    tr:nth-child(odd):hover {
+      background-color: $hover;
     }
 
     tr:nth-child(1) {
