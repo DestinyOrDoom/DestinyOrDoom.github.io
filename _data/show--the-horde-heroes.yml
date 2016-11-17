@@ -22,6 +22,16 @@ links:
     url: https://docs.google.com/document/d/1MNzzKzHuUHo5uwpY3ayrhaPfvrb-fdnPUCs8U8_Wpbw/edit?usp=sharing
 
 players:
+  - name: Arborism
+    character: Bernard Boyce
+    description: >
+      A huntard
+
+  - name: DyingCamel
+    character: Camle
+    description: >
+      A demented dwarf
+
   - name: Lietu
     portrait: thallan.jpg
     character: Thallan Jolee
@@ -30,16 +40,6 @@ players:
         url: https://docs.google.com/spreadsheets/d/1QvTV0JDflSW3remdtIRJ32uv-cWNvkmllkzRmxPhTu8/edit#gid=588123559
     description: >
       Yaddi yaddi yadda.Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda.
-
-  - name: DyingCamel
-    character: Camle
-    description: >
-      A demented dwarf
-
-  - name: Arborism
-    character: Bernard Boyce
-    description: >
-      A huntard
 
   - name: zoldaPLS
     character: Yorek asdlkja
