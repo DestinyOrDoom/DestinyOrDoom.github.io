@@ -15,7 +15,7 @@ nav {
   }
 
   a:link, a:visited, a:hover, a:active {
-    color: $menutext;
+    color: $text;
   }
 
   a.logo {
@@ -26,7 +26,7 @@ nav {
 
   > .item {
     font-size: 3rem;
-    color: $menutext;
+    color: $text;
     width: 200px;
     height: 175px;
     display: flex;

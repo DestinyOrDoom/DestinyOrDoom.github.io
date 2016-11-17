@@ -4,6 +4,6 @@ ul.links {
 
 a.plain {
   &:link, &:visited, &:hover, &:active {
-    color: $text;
+    color: inherit;
   }
 }
