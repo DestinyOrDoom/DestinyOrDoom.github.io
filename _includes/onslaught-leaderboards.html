@@ -5,8 +5,8 @@
         <th>#</th>
         <th>Player</th>
         <th>Character</th>
-        <th>Gold</th>
-        <th>Level</th>
+        <th class="number">Gold</th>
+        <th class="number">Level</th>
     </tr>
     </thead>
     <tbody>
@@ -15,8 +15,8 @@
         <td>{{ forloop.index }}</td>
         <td>{{ row.player }}</td>
         <td>{{ row.character }}</td>
-        <td>{{ row.gold }}</td>
-        <td>{{ row.level }}</td>
+        <td class="number">{{ row.gold }}</td>
+        <td class="number">{{ row.level }}</td>
     </tr>
     {% endfor %}
     </tbody>

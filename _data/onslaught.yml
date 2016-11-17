@@ -1,45 +1,29 @@
 leaderboards:
   - player: Lietu
     character: Thallan
-    gold: 9001
-    level: 10
+    gold: 90001
+    level: 1000
   - player: Lietu
     character: Thallan
     gold: 9001
+    level: 100
+  - player: Lietu
+    character: Thallan
+    gold: 901
     level: 10
   - player: Lietu
     character: Thallan
-    gold: 9001
-    level: 10
+    gold: 91
+    level: 1
   - player: Lietu
     character: Thallan
-    gold: 9001
-    level: 10
+    gold: 9
+    level: 1
   - player: Lietu
     character: Thallan
-    gold: 9001
-    level: 10
+    gold: 1
+    level: 1
   - player: Lietu
     character: Thallan
-    gold: 9001
-    level: 10
-  - player: Lietu
-    character: Thallan
-    gold: 9001
-    level: 10
-  - player: Lietu
-    character: Thallan
-    gold: 9001
-    level: 10
-  - player: Lietu
-    character: Thallan
-    gold: 9001
-    level: 10
-  - player: Lietu
-    character: Thallan
-    gold: 9001
-    level: 10
-  - player: Lietu
-    character: Thallan
-    gold: 9001
-    level: 10
+    gold: 0
+    level: 0

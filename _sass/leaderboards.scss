@@ -1,5 +1,10 @@
 $hover: lighten($darkarea, 5%);
 table.leaderboards {
+  th, td {
+    padding: 0.5rem;
+    border-bottom: 0.1rem solid lighten($darkarea, 12%);
+  }
+
   tbody {
     tr:nth-child(odd) {
       background-color: darken($darkarea, 5%);

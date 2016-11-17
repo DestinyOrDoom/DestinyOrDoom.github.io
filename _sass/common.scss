@@ -7,3 +7,9 @@ a.plain {
     color: inherit;
   }
 }
+
+td, th {
+  &.number {
+    text-align: right;
+  }
+}
