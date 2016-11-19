@@ -13,3 +13,6 @@ sass:
 exclude:
   - README.md
   - .gitignore
+
+gems:
+  - jekyll-redirect-from
