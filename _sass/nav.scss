@@ -16,23 +16,25 @@ nav {
     color: $text;
   }
 
-  > .item {
-    display: block;
-    width: 100%;
+  .hamburger {
     padding: 0.5rem 1rem;
-    margin: 0;
-    color: $text;
+    text-align: center;
+  }
+
+  .menu-items {
+    > .item {
+      display: block;
+      width: 100%;
+      padding: 0.5rem 1rem;
+      margin: 0;
+      color: $text;
+    }
   }
 }
 
 @media #{$desktop} {
   nav {
     height: 150px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
     font-size: 3rem;
     line-height: 3.5rem;
 
@@ -43,21 +45,36 @@ nav {
       pointer-events: none;
     }
 
+    .hamburger {
+      display: none;
+    }
+
     a.logo {
       background-image: url("assets/destinyordoom.jpg");
       background-size: contain;
       background-repeat: no-repeat;
     }
 
-    > .item {
-      padding: 0;
-      width: 200px;
-      height: 175px;
+    .menu-items {
       display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
       align-items: center;
       justify-content: center;
-      position: relative;
-      text-align: center;
+      width: 100%;
+      max-width: 100%;
+      flex-basis: 100%;
+
+      > .item {
+        padding: 0;
+        width: 200px;
+        height: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+      }
     }
   }
 }
