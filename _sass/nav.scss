@@ -5,6 +5,10 @@ nav {
   font-size: 2rem;
   line-height: 2.5rem;
 
+  &.row {
+    margin: 0;
+  }
+
   a:link, a:visited, a:hover, a:active {
     color: $text;
   }
