@@ -1,11 +1,10 @@
 $margin: 3rem 0;
-$padding: 1.5rem;
 
 .container .row .mainbox {
   border: $border;
   background-color: $darkarea;
   margin: $margin;
-  padding: $padding;
+  padding: 1rem;
 }
 
 .container .row .sidebar {
@@ -18,4 +17,10 @@ $padding: 1.5rem;
 
 .desc-title {
 
+}
+
+@media #{$desktop} {
+  .container .row .mainbox {
+    padding: 1.5rem;
+  }
 }

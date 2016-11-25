@@ -8,7 +8,7 @@ body {
   background: $middle;
   color: $text;
   font-family: 'Lato', 'Verdana', sans-serif;
-  line-height: 2.2rem;
+  line-height: 1.6rem;
 }
 
 img {
@@ -43,8 +43,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 0;
   line-height: 3.5rem;
 }
 
+@media #{$desktop} {
+  body {
+    line-height: 2.2rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+    margin: 0;
+    line-height: 3.5rem;
+  }
+}
