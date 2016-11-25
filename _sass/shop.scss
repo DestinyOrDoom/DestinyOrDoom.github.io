@@ -1,0 +1,10 @@
+.shop .loading {
+  margin: 2rem 0;
+  display: table;
+
+  * {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 1rem;
+  }
+}

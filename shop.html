@@ -6,17 +6,23 @@ title: Shop
 <div class="row">
     <div class="{{ site.layout.large }}">
         <h2>Shop</h2>
-        <div id="myshop"></div>
+        <div id="myshop" class="shop">
+            <div class="loading">
+                <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+                <span>Loading... Please wait.</span>
+            </div>
+        </div>
 
         <script>
-            var spread_shop_config= {
-                "shopName" : "501825",
-                "locale" : "us_US",
-                "prefix" : "//shop.spreadshirt.com",
-                "baseId" : "myshop"
-         };
+            var spread_shop_config = {
+                "shopName": "501825",
+                "locale": "us_US",
+                "prefix": "//shop.spreadshirt.com",
+                "baseId": "myshop"
+            };
         </script>
-        <script type="text/javascript" src="//shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js"></script>
+        <script type="text/javascript"
+                src="//shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js"></script>
     </div>
     <div class="{{ site.layout.sidebar }}">
         {% include agenda.html %}
