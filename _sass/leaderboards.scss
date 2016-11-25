@@ -1,7 +1,7 @@
 $hover: lighten($darkarea, 5%);
 table.leaderboards {
   th, td {
-    padding: 0.5rem;
+    padding: 0.3rem;
     border-bottom: 0.1rem solid lighten($darkarea, 12%);
   }
 
@@ -34,6 +34,15 @@ table.leaderboards {
       td:first-child {
         background-color: #422110;
       }
+    }
+  }
+}
+
+@media #{$desktop} {
+  table.leaderboards {
+    th, td {
+      padding: 0.5rem 1rem;
+      border-bottom: 0.1rem solid lighten($darkarea, 12%);
     }
   }
 }
