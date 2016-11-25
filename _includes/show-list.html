@@ -4,10 +4,10 @@
 {% capture url %}{{ name }}.html{% endcapture %}
 {% if entry contains "show--" %}
 <div class="row shows">
-    <div class="column column-25">
+    <div class="{{ site.layout.desc-image }}">
     <a href="{{ url }}"><img src="http://placehold.it/150x150"></a>
     </div>
-    <div class="column column-75">
+    <div class="{{ site.layout.desc-title }}">
         <h2><a class="plain" href="{{ url }}">{{ site.data[entry].name }}</a></h2>
         <p>{{ site.data[entry].description }}</p>
         <a href="{{ url }}">Read more...</a>

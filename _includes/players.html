@@ -1,10 +1,10 @@
 <h3>Players</h3>
 {% for player in site.data[include.show].players %}
 <div class="row players">
-    <div class="column column-25">
+    <div class="{{ site.layout.desc-image }}">
         <img src="http://placehold.it/150x150">
     </div>
-    <div class="column column-75 description">
+    <div class="{{ site.layout.desc-title }}">
         <h3>{{ player.name }}</h3>
         <h4>{{ player.character }}</h4>
         <p>{{ player.description }}</p>

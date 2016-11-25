@@ -11,8 +11,13 @@ body {
   line-height: 2.2rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 a:link, a:visited, a:hover, a:active {
   color: $link;
+  text-decoration: none;
 }
 
 table {
@@ -35,5 +40,11 @@ table {
 h1, h2, h3, h4, h5, h6 {
   font-family: "optimus princeps semi bold";
   color: $headers;
+}
+
+h2 {
+  font-size: 4rem;
+  margin: 0;
+  line-height: 3.5rem;
 }
 

@@ -1,0 +1,63 @@
+nav {
+  font-family: "optimus princeps", "Verdana", sans-serif;
+  background-color: $header;
+  border-bottom: $border;
+  font-size: 2rem;
+  line-height: 2.5rem;
+
+  a:link, a:visited, a:hover, a:active {
+    color: $text;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 0;
+    color: $text;
+  }
+
+  > .item {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    color: $text;
+  }
+}
+
+@media #{$desktop} {
+  nav {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    line-height: 3.5rem;
+
+    h1 {
+      position: absolute;
+      opacity: 0;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    a.logo {
+      background-image: url("assets/destinyordoom.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    > .item {
+      padding: 0;
+      width: 200px;
+      height: 175px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      text-align: center;
+    }
+  }
+}

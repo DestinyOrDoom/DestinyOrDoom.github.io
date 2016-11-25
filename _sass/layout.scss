@@ -1,14 +1,21 @@
-$margin: 60px 0;
-$padding: 32px;
+$margin: 3rem 0;
+$padding: 1.5rem;
 
-.container .row .column.mainbox {
+.container .row .mainbox {
   border: $border;
   background-color: $darkarea;
   margin: $margin;
   padding: $padding;
 }
 
-.container .row .column.sidebar {
+.container .row .sidebar {
   margin: $margin;
 }
 
+.desc-image {
+  padding-bottom: 2rem;
+}
+
+.desc-title {
+
+}
