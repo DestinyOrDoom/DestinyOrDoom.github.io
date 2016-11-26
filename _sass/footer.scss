@@ -6,4 +6,46 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  ul.social-media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+    padding: 0;
+
+    li {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        display: block;
+        width: 64px;
+        height: 64px;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0 1rem;
+
+        span {
+          display: none;
+        }
+
+        &.facebook {
+          background-image: url("assets/facebook.png");
+        }
+
+        &.twitter {
+          background-image: url("assets/twitter.png");
+        }
+
+        &.youtube {
+          background-image: url("assets/youtube.png");
+        }
+      }
+    }
+  }
 }
