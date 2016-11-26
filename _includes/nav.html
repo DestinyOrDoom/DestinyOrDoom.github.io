@@ -6,8 +6,8 @@
         <a class="item logo{% if page.menu == "main" %} active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">
             <h1 class="mobile">Destiny or Doom</h1>
         </a>
-        <a class="item{% if page.menu == "schedule" %} active{% endif %}" href="{{ "schedule.html" | prepend: site.baseurl }}">Schedule</a>
-        <a class="item{% if page.menu == "shows" %} active{% endif %}" href="{{ "shows.html" | prepend: site.baseurl }}">Shows</a>
-        <a class="item{% if page.menu == "shop" %} active{% endif %}" href="{{ "shop.html" | prepend: site.baseurl }}">Shop</a>
+        <a class="item schedule{% if page.menu == "schedule" %} active{% endif %}" href="{{ "schedule.html" | prepend: site.baseurl }}"><span>Schedule</span></a>
+        <a class="item shows{% if page.menu == "shows" %} active{% endif %}" href="{{ "shows.html" | prepend: site.baseurl }}"><span>Shows</span></a>
+        <a class="item shop{% if page.menu == "shop" %} active{% endif %}" href="{{ "shop.html" | prepend: site.baseurl }}"><span>Shop</span></a>
     </div>
 </nav>

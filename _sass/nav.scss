@@ -42,7 +42,7 @@ nav {
 
 @media #{$desktop} {
   nav {
-    height: 150px;
+    height: 175px;
     font-size: 3rem;
     line-height: 3.5rem;
 
@@ -59,9 +59,30 @@ nav {
 
     a.logo {
       background-image: url("assets/header.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
+    }
+
+    a.schedule {
+      background-image: url("assets/schedule-menu.png");
+
+      span {
+        display: none;
+      }
+    }
+
+    a.shop {
+      background-image: url("assets/shop-menu.png");
+
+      span {
+        display: none;
+      }
+    }
+
+    a.shows {
+      background-image: url("assets/shows-menu.png");
+
+      span {
+        display: none;
+      }
     }
 
     .menu-items {
@@ -75,6 +96,10 @@ nav {
       flex-basis: 100%;
 
       > .item {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
         padding: 0;
         width: 200px;
         height: 175px;
