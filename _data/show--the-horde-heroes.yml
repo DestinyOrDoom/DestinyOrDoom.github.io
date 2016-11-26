@@ -61,8 +61,6 @@ players:
     character: Thallan Jolee
     image: assets/lietu-portrait.png
     links:
-      - name: Character Sheet
-        url: https://docs.google.com/spreadsheets/d/1QvTV0JDflSW3remdtIRJ32uv-cWNvkmllkzRmxPhTu8/edit#gid=588123559
       - name: Twitch
         url: http://lietu.tv/live
       - name: Twitter
