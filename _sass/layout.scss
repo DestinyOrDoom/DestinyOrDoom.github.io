@@ -10,6 +10,11 @@ $margin: 3rem 0;
   background-color: $darkarea;
   margin: $margin;
   padding: 1rem;
+  background-repeat: no-repeat;
+
+  > h3 {
+    margin-top: 3rem;
+  }
 }
 
 .row .sidebar {

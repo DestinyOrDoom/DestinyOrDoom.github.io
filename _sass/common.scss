@@ -1,5 +1,7 @@
 ul.links {
   list-style: none;
+  padding: 0;
+  line-height: 1.5rem;
 }
 
 a.plain {
@@ -12,4 +14,9 @@ td, th {
   &.number {
     text-align: right;
   }
+}
+
+img.heading {
+  margin: 0 auto 3em auto;
+  display: block;
 }
