@@ -13,6 +13,10 @@ nav {
     color: $text;
   }
 
+  a.active {
+    text-decoration: underline;
+  }
+
   h1 {
     font-size: 2rem;
     line-height: 2.5rem;
