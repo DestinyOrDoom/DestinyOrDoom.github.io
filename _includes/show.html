@@ -1,15 +1,29 @@
-{% capture show %}show--{{include.name}}{% endcapture%}
+{% capture key %}show--{{include.name}}{% endcapture%}
+{% assign show = site.data[key] %}
 
-<img src="http://placehold.it/500x300"><h2>{{ site.data[show].name }}</h2>
+<img class="heading" src="http://placehold.it/500x300"><h2>{{ site.data[show].name }}</h2>
 
-<p>{{ site.data[show].description }}</p>
+<p>{{ show.description }}</p>
 
 <ul class="links">
-    {% for link in site.data[show].links %}
+    {% for link in show.links %}
     <li><a href="{{ link.url }}">{{ link.name }}</a></li>
     {% endfor %}
 </ul>
 
-{% if include.players == "yes" %}
-{% include players.html show=show %}
-{% endif %}
+<h3>Game Master</h3>
+
+<div class="row players">
+    <div class="{{ site.layout.desc-image }}">
+        <img src="{{ show.gamemaster.image }}">
+    </div>
+    <div class="{{ site.layout.desc-title }}">
+        <h3>{{ show.gamemaster.name }}</h3>
+        <p>{{ show.gamemaster.description }}</p>
+        <ul class="links">
+            {% for link in show.gamemaster.links %}
+            <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

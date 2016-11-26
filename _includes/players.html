@@ -1,8 +1,9 @@
+{% capture show %}show--{{include.show}}{% endcapture%}
 <h3>Players</h3>
-{% for player in site.data[include.show].players %}
+{% for player in site.data[show].players %}
 <div class="row players">
     <div class="{{ site.layout.desc-image }}">
-        <img src="http://placehold.it/150x150">
+        <img src="{{ player.image }}">
     </div>
     <div class="{{ site.layout.desc-title }}">
         <h3>{{ player.name }}</h3>

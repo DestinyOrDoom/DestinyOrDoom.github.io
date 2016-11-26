@@ -1,11 +1,13 @@
 ---
 layout: default
 title: "The Horde: Heroes -campaign"
+menu: shows
 ---
 
 <div class="row">
-    <div class="{{ site.layout.large }}">
-        {% include show.html name="the-horde-heroes" players="yes" %}
+    <div class="{{ site.layout.large }}" style="background-image: url('assets/horde-heroes-bg.png')">
+        {% include show.html name="the-horde-heroes" %}
+        {% include players.html show="the-horde-heroes" %}
     </div>
     <div class="{{ site.layout.sidebar }}">
         {% include agenda.html %}

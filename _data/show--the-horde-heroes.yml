@@ -9,6 +9,17 @@ description: >
   And you must think you're in a toy store, because you're here shopping for
   an infant named Jeb.
 
+gamemaster:
+  name: The Pixel Pirate
+  image: http://placehold.it/200x200
+  links:
+    - name: Twitch
+      url: https://twitch.tv/ThePixelPirate
+    - name: Twitter
+      url: https://twitter.com/ThePixelPirate
+  description: >
+    The Pixel Pirate is in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?
+
 links:
   - name: World Map
     url: http://i.imgur.com/DHvsswM.jpg
@@ -24,24 +35,48 @@ links:
 players:
   - name: Arborism
     character: Bernard Boyce
+    image: assets/arbo-portrait.png
+    links:
+      - name: Twitch
+        url: https://twitch.tv/arborism
+      - name: Twitter
+        url: https://twitter.com/arborism
+
     description: >
       A huntard
 
   - name: DyingCamel
     character: Camle
+    image: assets/camel-portrait.png
+    links:
+      - name: Twitch
+        url: https://twitch.tv/dyingcamel
+      - name: Twitter
+        url: https://twitter.com/dyingcamelgames
     description: >
       A demented dwarf
 
   - name: Lietu
     portrait: thallan.jpg
     character: Thallan Jolee
+    image: assets/lietu-portrait.png
     links:
       - name: Character Sheet
         url: https://docs.google.com/spreadsheets/d/1QvTV0JDflSW3remdtIRJ32uv-cWNvkmllkzRmxPhTu8/edit#gid=588123559
+      - name: Twitch
+        url: http://lietu.tv/live
+      - name: Twitter
+        url: https://twitter.com/lietux
     description: >
       Yaddi yaddi yadda.Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda. Yaddi yaddi yadda.
 
   - name: zoldaPLS
-    character: Yorek asdlkja
+    character: Yorek Flinn
+    image: http://placehold.it/200x200
+    links:
+      - name: Twitch
+        url: https://twitch.tv/zoldapls
+      - name: Twitter
+        url: https://twitter.com/zoldaPLAYS
     description: >
       A dude
